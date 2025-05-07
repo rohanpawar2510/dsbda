@@ -1,0 +1,152 @@
+DSBDL Oral Questions with Answers
+
+1. Q: What is Pandas library in Python?
+   A: Pandas is a Python library for data manipulation and analysis, providing structures like DataFrames.
+
+2. Q: List some key features of Pandas.
+   A: DataFrames, handling missing data, merging, reshaping, groupby operations, time series support.
+
+3. Q: What is NumPy library in Python?
+   A: NumPy is a library for numerical computing, supporting arrays, matrices, and mathematical functions.
+
+4. Q: What is Matplotlib library?
+   A: Matplotlib is a Python plotting library for creating static, animated, and interactive visualizations.
+
+5. Q: What is the difference between Seaborn library and Matplotlib library?
+   A: Seaborn is built on Matplotlib but offers higher-level, more attractive visualizations with simpler syntax.
+
+6. Q: Are scikit-learn and SciPy the same library? What is its use in data science?
+   A: No, scikit-learn is for machine learning, while SciPy is for scientific computing. Scikit-learn is used for classification, regression, clustering.
+
+7. Q: What functions come in Pandas and NumPy library?
+   A: Examples: read_csv(), merge(), pivot() (Pandas); np.array(), np.mean(), np.dot() (NumPy).
+
+8. Q: What is a DataFrame in Python?
+   A: A DataFrame is a 2D labeled data structure in Pandas, like a table with rows and columns.
+
+9. Q: How to find duplicates in Python? (Python command)
+   A: Use df.duplicated() in Pandas.
+
+10. Q: What is the use of describe() command?
+   A: It gives summary statistics of the dataset (mean, std, min, max, quartiles).
+
+11. Q: Which Naive Bayes classification algorithm is used in Python?
+   A: Scikit-learn provides GaussianNB, MultinomialNB, BernoulliNB.
+
+12. Q: What is the significance of the confusion matrix?
+   A: It summarizes model performance by showing actual vs. predicted values.
+
+13. Q: What is TP, TN, FP, FN in confusion matrix?
+   A: True Positives, True Negatives, False Positives, False Negatives.
+
+14. Q: What is recall?
+   A: Recall = TP / (TP + FN); it measures how many actual positives were correctly identified.
+
+15. Q: What is precision?
+   A: Precision = TP / (TP + FP); it measures how many predicted positives were correct.
+
+16. Q: What is F1 score?
+   A: The harmonic mean of precision and recall; balances both.
+
+17. Q: What is the need for data visualization in data science?
+   A: To understand patterns, trends, outliers, and communicate insights effectively.
+
+18. Q: What is an outlier?
+   A: A data point that significantly differs from other observations.
+
+19. Q: When to use histogram and pie chart?
+   A: Histogram: show distributions; Pie chart: show parts of a whole.
+
+20. Q: What are the challenges in big data visualization?
+   A: Scalability, speed, clarity, handling huge datasets.
+
+21. Q: What is a joint plot, dist plot?
+   A: Seaborn plots; joint plot combines scatter + distributions; dist plot shows distributions.
+
+22. Q: What are tools used for data visualization?
+   A: Matplotlib, Seaborn, Plotly, Tableau, Power BI.
+
+23. Q: What is data wrangling?
+   A: Cleaning, transforming, and preparing raw data for analysis.
+
+24. Q: What is data transformation?
+   A: Changing data format, structure, or values (e.g., normalization, scaling).
+
+25. Q: What is the use of StandardScaler function in Python?
+   A: It scales features to have zero mean and unit variance.
+
+26. Q: What is Hadoop?
+   A: An open-source framework for distributed storage and processing of big data.
+
+27. Q: What is HDFS and MapReduce?
+   A: HDFS: Hadoop Distributed File System; MapReduce: programming model for processing data.
+
+28. Q: What are the components of Hadoop ecosystem?
+   A: HDFS, MapReduce, YARN, Hive, Pig, HBase.
+
+29. Q: What is Scala?
+   A: A programming language combining object-oriented and functional programming, runs on JVM.
+
+30. Q: What are features of Scala?
+   A: Concise syntax, functional programming, strong static typing, Java interoperability.
+
+31. Q: How is Scala different from Java?
+   A: Scala is more concise, supports functional programming, has better type inference.
+
+32. Q: List applications of Scala.
+   A: Data processing (with Spark), web development, backend systems.
+
+33. Q: What is data science?
+   A: The process of extracting insights and knowledge from structured and unstructured data.
+
+34. Q: What is big data?
+   A: Large, complex datasets that traditional tools cannot handle.
+
+35. Q: What are characteristics of big data?
+   A: Volume, Velocity, Variety, Veracity, Value.
+
+36. Q: List phases in data science life cycle.
+   A: Data collection, cleaning, exploration, modeling, evaluation, deployment.
+
+37. Q: What is central tendency?
+   A: Measures like mean, median, mode that describe the center of data.
+
+38. Q: What is dispersion?
+   A: Measures like variance, standard deviation, range that describe data spread.
+
+39. Q: Calculate mean, mode, midrange, median for 10, 22, 13, 10, 21, 43, 77, 21, 10.
+   A: Mean ≈ 25.2; Mode = 10; Median = 21; Midrange = (10+77)/2 = 43.5.
+
+40. Q: What is variance?
+   A: Average squared deviation from the mean.
+
+41. Q: What is standard deviation?
+   A: Square root of variance; measures data spread.
+
+42. Q: What is posterior probability in Naive Bayes theorem?
+   A: The updated probability of a class given observed data.
+
+43. Q: What is likelihood probability in Naive Bayes theorem?
+   A: The probability of observing the data given a particular class.
+
+44. Q: How do we deal with missing values?
+   A: Remove rows, fill with mean/median, or use interpolation.
+
+45. Q: What is NLTK?
+   A: Natural Language Toolkit, Python library for NLP tasks.
+
+46. Q: What is tokenization in NLP?
+   A: Splitting text into smaller units like words or sentences.
+
+47. Q: What is stemming?
+   A: Reducing words to their root form (e.g., 'played' to 'play').
+
+48. Q: What is lemmatization?
+   A: Reducing words to their dictionary/base form considering context.
+
+49. Q: What is corpus in NLP?
+   A: A large collection of texts used for language analysis.
+
+50. Q: What is Spark framework?
+   A: A distributed data processing engine, often used with Scala or Python for big data.
+
